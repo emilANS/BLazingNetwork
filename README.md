@@ -5,6 +5,8 @@ A social network with features like chatpages, group chatpages, individual chatp
 <h1>Technologies used for creating this website</h1>
 React + Vite
 <br>
+Flask
+<br>
 Nodejs
 <br>
 Python
