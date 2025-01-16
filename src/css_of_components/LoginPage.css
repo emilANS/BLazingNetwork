@@ -1,0 +1,292 @@
+#login-div {
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+	font-family: Arial;
+
+}
+
+#login-welcome-text {
+
+	font-size: 3.1rem;
+
+	position: relative;
+
+}
+
+#login-welcome-text::after {
+
+	content: "";
+
+	background: linear-gradient(to right, rgb(137, 3, 255), rgb(38, 0, 255));
+
+	height: 4px;
+
+	width: 100%;
+
+	position: absolute;
+
+	top: 70px;
+
+	bottom: 0;
+
+	left: 0;
+
+	transition-duration: 1s;
+
+}
+
+#login-welcome-text:hover::after {
+
+	width: 0%;
+
+}
+
+#username-input {
+
+	border: solid;
+
+	border-color: rgb(137, 3, 255);
+
+	border-width: 2px;
+
+	border-radius: 5px;
+
+	width: 200px;
+
+	height: 25px;
+
+	text-align: center;
+
+	font-size: 1rem;
+
+}
+
+#linear-gradient-cool-effect {
+
+	margin-top: 40px;
+
+	margin-bottom: 20px;
+
+	width: 100%;
+
+	text-align: center;
+
+	position: relative;
+
+}
+
+#linear-gradient-cool-effect::after {
+
+	content: "";
+
+	background-color: steelblue;
+
+	position: absolute;
+
+	z-index: -1;
+
+	inset: 0;
+
+	transform: skewY(-5deg);
+
+	background-image: linear-gradient(45deg, rgb(69, 41, 255), rgb(12, 81, 242), rgb(152, 12, 240), rgb(242, 127, 19));
+
+	top: 25px;
+
+}
+
+#email-input {
+
+	border: solid;
+
+	border-color: rgb(137, 3, 255);
+
+	border-width: 2px;
+
+	border-radius: 5px;
+
+	width: 200px;
+
+	height: 25px;
+
+	text-align: center;
+
+	font-size: 1rem;
+
+	box-shadow: black -10px -10px;
+
+	transition-duration: 1s;
+
+}
+
+#email-input:hover {
+
+	box-shadow: black 20px 10px;
+
+	transform: skewY(-2deg)
+}
+
+#password-input {
+
+	border: solid;
+
+	border-color: rgb(137, 3, 255);
+
+	border-width: 2px;
+
+	border-radius: 5px;
+
+	width: 200px;
+
+	height: 25px;
+
+	text-align: center;
+
+	font-size: 1rem;
+
+}
+
+#submit-login {
+
+	background-color: rgb(102, 22, 204);
+
+	color: white;
+
+	border: none;
+
+	border-radius: 10px;
+
+	margin-bottom: 20px;
+
+	width: 190px;
+
+	height: 40px;
+
+	font-size: 1.5rem;
+
+}
+
+#submit-login:hover {
+
+	animation-duration: 3s;
+
+	animation-name: glow-button;
+
+	animation-iteration-count: infinite;
+
+	animation-direction: alternate;
+
+}
+
+@keyframes glow-button {
+
+	0% {
+
+		background-color: rgb(107, 12, 201);
+
+
+	}
+
+	40% {
+
+		background-color: rgb(7, 39, 245);
+
+	}
+
+	100% {
+
+		background-color: rgb(198, 13, 212);
+
+	}
+}
+
+#go-to-register {
+
+	border: none;
+
+	background-color: rgb(55, 11, 186);
+
+	color: white;
+
+	height: 40px;
+
+	border-radius: 10px;
+
+	font-size: 1.3rem;
+
+	position: relative;
+}
+
+#go-to-register:hover {
+
+	animation-duration: 3s;
+
+	animation-name: glow-button-register;
+
+	animation-iteration-count: infinite;
+
+	animation-direction: alternate;
+
+}
+
+#go-to-register::after {
+
+	content: "";
+
+	position: absolute;
+
+	background: linear-gradient(to right, rgb(16, 23, 194), rgb(97, 7, 232));
+
+	width: 100px;
+
+	height: 10px;
+
+	top: 55px;
+
+	left: 20px;
+
+	border-radius: 5px;
+
+	border-bottom-left-radius: 60%;
+
+	border-bottom-right-radius: 60%;
+
+}
+
+#go-to-register:hover::after {
+
+	animation-duration: 3s;
+
+	animation-name: glow-button-register;
+
+	animation-iteration-count: infinite;
+
+	animation-direction: alternate;
+
+}
+
+@keyframes glow-button-register {
+
+	0% {
+
+		background-color: rgb(198, 13, 212);
+
+	}
+
+	40% {
+
+		background-color: rgb(7, 39, 245);
+
+	}
+
+	100% {
+
+
+		background-color: rgb(107, 12, 201)
+	}
+}

@@ -1,0 +1,195 @@
+#child-div-post-page {
+  text-align: center;
+}
+
+#main-div-post-page {
+  font-family: verdana;
+}
+
+#main-div-post-page::before {
+  content: "";
+
+  position: absolute;
+
+  height: 100%;
+
+  width: 99.5%;
+
+  background-image: linear-gradient(45deg, red, blue);
+
+  z-index: -1;
+}
+
+#post-type-text-button {
+  border: 2px none;
+
+  border-radius: 5px;
+
+  margin-right: 10px;
+
+  width: 100px;
+
+  height: 70px;
+
+  font-size: 25px;
+
+  background-color: rgb(83, 43, 214);
+
+  transition-duration: 0.5s;
+}
+
+#post-type-image-button {
+  border: 2px none;
+
+  border-radius: 5px;
+
+  position: relative;
+
+  width: 100px;
+
+  height: 70px;
+
+  top: 10.5px;
+
+  font-size: 20px;
+
+  background-color: rgb(83, 43, 214);
+
+  transition-duration: 0.5s;
+}
+
+#post-type-text-button:hover,
+#post-type-image-button:hover {
+  background-color: rgb(103, 65, 228);
+}
+
+#post-div {
+  margin-top: 30px;
+
+  border: 2px solid white;
+
+  border-radius: 20px;
+
+  width: 30%;
+
+  padding: 25px;
+
+  position: absolute;
+
+  left: 33%;
+
+  right: 50%;
+
+  background-image: linear-gradient(
+    45deg,
+    rgb(102, 24, 237),
+    rgb(179, 32, 232)
+  );
+
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#title-post-text-option,
+#title-post-imageVideo-option {
+  max-width: 200px;
+
+  min-width: 200px;
+
+  min-height: 30px;
+
+  max-height: 30px;
+}
+
+#body-post-text-option {
+  max-width: 400px;
+
+  min-width: 400px;
+
+  width: 400;
+
+  min-height: 150px;
+
+  max-height: 150px;
+}
+
+#body-post-text-option,
+#title-post-text-option,
+#title-post-imageVideo-option {
+  border: 2px none;
+
+  border-radius: 15px;
+
+  background-color: rgb(48, 48, 48);
+
+  text-align: center;
+
+  align-content: center;
+
+  color: white;
+}
+
+#community-of-post,
+#community-of-post-image-video {
+  background-color: rgb(129, 13, 196);
+
+  width: 100px;
+
+  height: 30px;
+
+  border: 2px none;
+
+  border-radius: 10px;
+}
+
+#submit-post-button {
+  margin-top: 20px;
+
+  width: 130px;
+
+  height: 30px;
+
+  border: 2px none;
+
+  border-radius: 10px;
+
+  background-color: rgba(245, 46, 255, 0.941);
+
+  transition-duration: 0.5s;
+}
+
+#submit-post-button:hover {
+  background-color: rgba(247, 88, 255, 0.941);
+
+  width: 170px;
+
+  height: 40px;
+}
+
+#upload-file-in-post-page {
+  display: none;
+}
+
+#post-page-image {
+  width: 350px;
+}
+
+@media screen and (max-width: 1170px) {
+  #post-div {
+    width: 80%;
+
+    text-align: center;
+
+    left: 4%;
+  }
+
+  #title-post-text-option,
+  #title-post-imageVideo-option {
+    max-width: 200px;
+
+    min-width: 200px;
+  }
+
+  #body-post-text-option {
+    min-width: 300px;
+  }
+}

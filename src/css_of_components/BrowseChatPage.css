@@ -1,0 +1,223 @@
+#cool-effect-browse-chat-page::after {
+  content: "";
+
+  width: 100%;
+
+  height: 190px;
+
+  background-image: linear-gradient(45deg, purple, blue);
+
+  position: absolute;
+
+  z-index: -1;
+}
+
+#main-div-browse-chat-page {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-browse-chat-div {
+  max-width: fit-content;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+#create-chat-button {
+  background-color: white;
+
+  color: black;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  border-style: none;
+
+  height: 25px;
+
+  box-shadow: rgba(0, 0, 0, 0.311) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.147) 0px 0px 0px 1px;
+
+  transition-duration: 0.5s;
+}
+
+#create-chat-button:hover {
+  background-color: rgb(196, 195, 195);
+
+  box-shadow: rgba(168, 168, 168, 0.445) 0px 10px 36px 0px,
+    rgba(117, 117, 117, 0.701) 0px 0px 0px 1px;
+}
+
+#secondary-browse-chat-div {
+  position: relative;
+
+  margin: 10px auto auto auto;
+}
+
+#search-chat-input {
+  width: 250px;
+
+  text-align: center;
+
+  height: 25px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  height: 25px;
+}
+
+#search-chats-button {
+  position: absolute;
+
+  margin-right: 10px;
+
+  height: 35px;
+
+  border: none;
+
+  right: 0;
+
+  font-size: 20px;
+
+  bottom: -4px;
+
+  color: rgb(148, 148, 148);
+
+  transition-duration: 0.5s;
+}
+
+#display-all-chats-div {
+  text-align: center;
+
+  border-left: 3px;
+
+  border-right: 0px;
+
+  border-bottom: 0px;
+
+  border-top: 0px;
+
+  border-style: solid;
+
+  border-radius: 10px;
+
+  width: 30%;
+
+  margin: 80px auto auto auto;
+}
+
+#access-chat-button {
+  border: 2px;
+
+  border-style: solid;
+
+  border-color: rgb(41, 97, 216);
+
+  width: 100px;
+
+  height: 30px;
+
+  font-size: 17px;
+
+  background-color: rgb(52, 52, 52);
+
+  border-radius: 10px;
+
+  box-shadow: rgba(177, 177, 177, 0.35) 0px 5px 15px;
+
+  transition-duration: 0.5s;
+}
+
+#access-chat-button:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+#show-all-chats-again-button {
+  margin: 10px auto auto auto;
+
+  width: 170px;
+
+  height: 25px;
+
+  background-color: rgba(83, 113, 248, 0.619);
+
+  border-color: white;
+
+  border-style: solid;
+
+  border-width: 1px;
+
+  border-radius: 10px;
+
+  transition-duration: 0.5s;
+}
+
+#show-all-chats-again-button:hover {
+  background-color: rgba(51, 75, 183, 0.819);
+}
+
+#create-chat-info {
+  border-radius: 7px;
+
+  border-style: solid;
+}
+
+#name-of-chat {
+  background-color: white;
+
+  border-style: solid;
+
+  border-radius: 3px;
+
+  color: black;
+}
+
+#name-of-user-in-chat {
+  background-color: white;
+
+  border-style: solid;
+
+  border-radius: 3px;
+
+  margin-left: 5px;
+
+  color: black;
+}
+
+#add-user-to-chat {
+  background-color: white;
+
+  margin-top: 10px;
+
+  color: black;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  border-style: none;
+
+  height: 25px;
+
+  box-shadow: rgba(0, 0, 0, 0.311) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.147) 0px 0px 0px 1px;
+
+  transition-duration: 0.5s;
+}
+
+#add-user-to-chat:hover {
+  background-color: rgb(196, 195, 195);
+
+  box-shadow: rgba(168, 168, 168, 0.445) 0px 10px 36px 0px,
+    rgba(117, 117, 117, 0.701) 0px 0px 0px 1px;
+}
+
+@media screen and (max-width: 1170px) {
+  #div-chat-display {
+    margin-left: 20px;
+  } 
+}

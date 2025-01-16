@@ -1,0 +1,178 @@
+#second-main-div-community-page {
+  display: flex;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#posts-of-community {
+  width: 50%;
+
+  margin: auto 250px auto auto;
+
+  text-align: center;
+}
+
+#posts-div-community-page {
+  border: 2px solid white;
+
+  border-radius: 20px;
+
+  border-right: 0px;
+
+  border-left: 0px;
+
+  margin-bottom: 30px;
+}
+
+#options-of-post-div-community-page {
+  border: 2px solid white;
+
+  width: 200px;
+
+  margin: auto auto 20px auto;
+
+  border-radius: 10px;
+
+  height: 40px;
+
+  align-items: center;
+
+  align-content: center;
+}
+
+#like-community-page,
+#dislike-community-page,
+#comment-community-page,
+#save-community-page {
+  font-size: 25px;
+
+  transition-duration: 0.5s;
+}
+
+#like-community-page:hover,
+#dislike-community-page:hover,
+#comment-community-page:hover,
+#save-community-page:hover {
+  color: rgba(255, 255, 255, 0.492);
+}
+
+#dislike-community-page {
+  margin-left: 15px;
+
+  margin-right: 40px;
+}
+
+#comment-community-page {
+  margin-right: 20px;
+}
+
+#community-info-div {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  position: fixed;
+
+  height: 98%;
+
+  text-align: center;
+}
+
+#div-create-post-community {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  margin: 3px;
+
+  padding: 10px;
+
+  width: 70%;
+
+  margin: auto;
+}
+
+#logo-of-community-page {
+  margin-top: 20px;
+
+  width: 170px;
+
+  border: 2px solid white;
+
+  padding: 5px;
+
+  box-shadow: rgba(191, 191, 191, 0.368) 0px 5px 15px;
+}
+
+#create-post-community-page {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  background-color: black;
+
+  padding: 10px;
+
+  transition-duration: 0.5s;
+}
+
+#create-post-community-page:hover {
+  background-color: gray;
+}
+
+#show-moderator-options-community-page {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  background-color: black;
+
+  padding: 10px;
+
+  transition-duration: 0.5s;
+
+  margin-bottom: 15px;
+}
+
+#show-moderator-options-community-page:hover {
+  background-color: gray;
+}
+
+#div-moderator-options-community-page {
+  margin: 10px;
+}
+
+#password-of-moderator,
+#email-of-moderator {
+  background-color: black;
+
+  border: 2px solid white;
+
+  padding: 7px;
+
+  margin-right: 10px;
+
+  border-radius: 10px;
+
+  font-size: 15px;
+}
+
+#ban-user-button,
+#delete-post-button {
+  background-color: black;
+
+  border: 2px solid red;
+
+  border-radius: 5px;
+
+  margin-right: 10px;
+
+  transition-duration: 0.5s;
+}
+
+#ban-user-button:hover,
+#delete-post-button:hover {
+  background-color: red;
+
+  border-radius: 0px;
+}

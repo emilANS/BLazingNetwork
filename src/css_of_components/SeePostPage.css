@@ -1,0 +1,423 @@
+#main-div-see-post-page {
+  max-width: fit-content;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  width: auto;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cool-effect-see-post-page {
+  content: "";
+
+  position: absolute;
+
+  width: 99%;
+
+  height: 240px;
+
+  background-image: linear-gradient(45deg, blue, red);
+
+  z-index: -1;
+
+  border: 2px none;
+
+  border-bottom-right-radius: 20px;
+
+  border-bottom-left-radius: 20px;
+}
+
+#body-of-post-div {
+  text-align: center;
+
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+
+  padding: 15px;
+
+  background-color: black;
+
+  box-shadow: rgba(201, 201, 201, 0.437) 0px 10px 36px 0px,
+    rgba(163, 163, 163, 0.426) 0px 0px 0px 1px;
+}
+
+#comments-section-div {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  padding: 20px;
+
+  min-width: 500px;
+}
+
+#upvote-in-see-post-page,
+#downvote-in-see-post-page {
+  font-size: 30px;
+
+  transition-duration: 0.5s;
+}
+
+#upvote-in-see-post-page {
+  margin-right: 50px;
+}
+
+#upvote-in-see-post-page:hover {
+  color: rgb(97, 81, 247);
+}
+
+#downvote-in-see-post-page:hover {
+  color: rgb(250, 105, 15);
+}
+
+#likes-div-see-post-page {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  width: 200px;
+
+  max-width: fit-content;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+}
+
+#submit-commentary-div {
+  text-align: center;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+#comment-from-user {
+  text-align: center;
+
+  align-items: center;
+
+  align-content: center;
+
+  min-width: 600px;
+
+  max-width: 600px;
+
+  min-height: 20px;
+
+  max-height: 150px;
+
+  border: 2px solid rgba(255, 255, 255, 0.585);
+
+  border-radius: 10px;
+
+  background-color: rgba(62, 62, 62, 0.678);
+
+  font-size: 15px;
+
+  transition-duration: 0.3s;
+}
+
+#comment-from-user:hover {
+  border-color: white;
+}
+
+#comment-from-user::placeholder {
+  font-size: 15px;
+
+  color: rgba(255, 255, 255, 0.626);
+}
+
+#hide-input-image-see-post-page {
+  display: none;
+}
+
+#image-upload-icon {
+  font-size: 55px;
+
+  margin-top: 20px;
+
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  padding: 10px;
+
+  transition-duration: 0.5s;
+}
+
+#image-upload-icon:hover {
+  color: rgba(255, 255, 255, 0.432);
+}
+
+#send-comment-button {
+  margin-top: 20px;
+
+  width: 300px;
+
+  margin: 20px auto auto auto;
+
+  height: 35px;
+
+  border: 2px solid rgba(255, 255, 255, 0.605);
+
+  border-radius: 10px;
+
+  background-color: rgba(0, 0, 255, 0.732);
+
+  font-size: 18px;
+
+  transition-duration: 0.5s;
+}
+
+#send-comment-button:hover {
+  background-color: rgb(0, 0, 255);
+}
+
+#previous-image-see-post-page {
+  transform: rotate(180deg);
+}
+
+#next-image-see-post-page,
+#previous-image-see-post-page {
+  font-size: 50px;
+
+  transition-duration: 0.5s;
+}
+
+#next-image-see-post-page:hover,
+#previous-image-see-post-page:hover {
+  color: rgba(255, 255, 255, 0.558);
+}
+
+#image-see-post-page-commentary {
+  margin-top: 15px;
+
+  position: relative;
+
+  width: 250;
+
+  height: 250px;
+}
+
+#delete-file-see-post-page {
+  border: 2px none;
+
+  width: 150px;
+
+  height: 30px;
+
+  border-radius: 10px;
+
+  background-color: red;
+
+  transition-duration: 0.5s;
+}
+
+#delete-file-see-post-page:hover {
+  background-color: rgba(255, 0, 0, 0.641);
+}
+
+#comment-div-see-post-page {
+  border: 2px solid white;
+
+  border-radius: 15px;
+
+  padding: 20px;
+
+  margin-top: 20px;
+}
+
+#profile-image-see-post-page {
+  border-radius: 10px;
+}
+
+#likes-comment-div-see-post-page {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  width: 100px;
+
+  padding-left: 10px;
+
+  padding-right: 10px;
+}
+
+#upvote-comment-in-see-post-page,
+#downvote-comment-in-see-post-page {
+  font-size: 30px;
+
+  transition-duration: 0.5s;
+}
+
+#upvote-comment-in-see-post-page {
+  margin-right: 35px;
+}
+
+#upvote-comment-in-see-post-page:hover {
+  color: rgb(97, 81, 247);
+}
+
+#downvote-comment-in-see-post-page:hover {
+  color: rgb(250, 105, 15);
+}
+
+#likes-reply-div-see-post-page {
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  width: 100px;
+
+  padding-left: 10px;
+}
+
+#upvote-reply-in-see-post-page,
+#downvote-reply-in-see-post-page {
+  font-size: 30px;
+
+  transition-duration: 0.5s;
+}
+
+#upvote-reply-in-see-post-page {
+  margin-right: 20px;
+}
+
+#upvote-reply-in-see-post-page:hover {
+  color: rgb(97, 81, 247);
+}
+
+#downvote-reply-in-see-post-page:hover {
+  color: rgb(250, 105, 15);
+}
+
+#send-reply-button {
+  border: 2px white solid;
+
+  border-radius: 15px;
+
+  width: 200px;
+
+  height: 40px;
+
+  background-color: rgba(0, 0, 255, 0.729);
+
+  transition-duration: 0.5s;
+}
+
+#send-reply-button:hover {
+  background-color: blue;
+}
+
+#send-reply-section-see-profile-page {
+  display: flex;
+
+  flex-direction: column;
+
+  text-align: center;
+}
+
+#content-of-reply {
+  text-align: center;
+
+  align-items: center;
+
+  align-content: center;
+
+  min-width: 500px;
+
+  max-width: 500px;
+
+  min-height: 20px;
+
+  max-height: 150px;
+
+  border: 2px solid rgba(255, 255, 255, 0.585);
+
+  border-radius: 10px;
+
+  background-color: rgba(62, 62, 62, 0.678);
+
+  font-size: 15px;
+
+  transition-duration: 0.3s;
+
+  margin: 25px auto auto auto;
+}
+
+#send-reply-button-see-post-page {
+  margin-top: 20px;
+
+  width: 300px;
+
+  margin: 20px auto auto auto;
+
+  height: 35px;
+
+  border: 2px solid rgba(255, 255, 255, 0.605);
+
+  border-radius: 10px;
+
+  background-color: rgba(151, 16, 255, 0.955);
+
+  font-size: 18px;
+
+  transition-duration: 0.5s;
+}
+
+#send-reply-button-see-post-page:hover {
+  background-color: rgba(151, 16, 255, 0.747);
+}
+
+#send-reply-next-previous-image-buttons {
+  display: flex;
+
+  flex-direction: row;
+
+  margin: auto;
+}
+
+#image-see-post-page-reply {
+  margin: 25px auto auto auto;
+}
+
+#next-previous-image-div-comment-body {
+  text-align: center;
+}
+
+#delete-file-see-post-page-reply-section {
+  margin: 25px auto auto auto;
+
+  width: 200px;
+
+  background-color: red;
+
+  border: 2px none;
+
+  width: 150px;
+
+  height: 30px;
+
+  border-radius: 10px;
+  
+  transition-duration: 0.5s;
+}
+
+#delete-file-see-post-page-reply-section:hover {
+  background-color: rgba(255, 0, 0, 0.641);
+}
+
+#reply-body-next-previous-image-buttons {
+  text-align: center;
+}

@@ -1,0 +1,610 @@
+#gradient-line::after {
+  content: "";
+
+  position: fixed;
+
+  z-index: 2;
+
+  top: 0;
+
+  width: 100%;
+
+  height: 10.5%;
+
+  background-image: linear-gradient(
+    -15deg,
+    rgb(69, 41, 255),
+    rgb(12, 81, 242),
+    rgb(152, 12, 240),
+    rgb(242, 127, 19)
+  );
+
+  border-bottom-right-radius: 18px;
+
+  border-bottom-left-radius: 18px;
+}
+
+#search-bar-div {
+  margin-top: 20px;
+
+  position: fixed;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  top: 0;
+
+  left: 50%;
+
+  right: 50%;
+
+  z-index: 3;
+}
+
+#search-input-and-icon-div {
+  position: relative;
+}
+
+#search-input {
+  width: 250px;
+
+  text-align: center;
+
+  height: 25px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  height: 25px;
+}
+
+#search-button {
+  position: absolute;
+
+  margin-right: 10px;
+
+  height: 35px;
+
+  border: none;
+
+  right: 0;
+
+  font-size: 20px;
+
+  bottom: -4px;
+
+  color: rgb(148, 148, 148);
+
+  transition-duration: 0.5s;
+}
+
+#search-button:hover {
+  color: white;
+}
+
+#options-of-search-buttons {
+  margin-top: 5px;
+
+  display: flex;
+}
+
+#options-of-search-buttons > * {
+  margin-right: 5px;
+}
+
+#show-original-posts-button {
+  position: relative;
+
+  height: 20px;
+
+  width: 140px;
+}
+
+#show-publications-button {
+  height: 20px;
+}
+
+#show-profiles-button {
+  height: 20px;
+}
+
+#show-communities-button {
+  height: 20px;
+}
+
+/* This is where all of the post personalization is */
+#first-post-div {
+  margin-top: 125px;
+}
+
+#posts-div {
+  position: relative;
+
+  width: 800px;
+
+  margin: 0 auto;
+
+  border-top: solid;
+
+  border-top-width: 2px;
+
+  border-color: rgb(120, 70, 255);
+
+  margin-bottom: 5px;
+}
+
+#posts-div-body {
+  position: relative;
+
+  text-align: center;
+
+  font-family: Arial;
+
+  z-index: 1;
+}
+
+#posts-div-with-cool-effect {
+  position: relative;
+
+  width: 900px;
+
+  margin: 0 auto;
+
+  border-top: solid;
+
+  border-top-width: 2px;
+
+  margin-bottom: 5px;
+}
+
+#posts-div-with-cool-effect::after {
+  content: "";
+
+  background-color: steelblue;
+
+  position: absolute;
+
+  z-index: -3;
+
+  inset: 0;
+
+  background-image: linear-gradient(
+    45deg,
+    rgb(69, 41, 255),
+    rgb(12, 81, 242),
+    rgb(152, 12, 240),
+    rgb(242, 127, 19)
+  );
+
+  border-bottom-left-radius: 30%;
+
+  border-bottom-right-radius: 30%;
+}
+
+#info-of-post-div {
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+#options-of-post-div {
+  display: flex;
+
+  align-items: center;
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 20px;
+
+  border: solid;
+
+  background: linear-gradient(45deg, rgb(137, 3, 255), rgb(38, 0, 255));
+
+  border-width: 2px;
+
+  border-radius: 10px;
+
+  height: 33px;
+
+  font-size: 17px;
+
+  font-family: arial;
+}
+
+#likes-div {
+  display: flex;
+
+  align-items: center;
+
+  border-right: solid;
+
+  border-right-width: 2px;
+
+  height: 25px;
+
+  margin-right: 10px;
+}
+
+#like-button {
+  margin-right: 10px;
+
+  transition-duration: 0.3s;
+
+  font-size: 25px;
+}
+
+#like-button:hover {
+  color: rgb(165, 156, 247);
+}
+
+#dislike-button {
+  margin-left: 10px;
+
+  margin-right: 10px;
+
+  transition-duration: 0.3s;
+
+  font-size: 25px;
+}
+
+#dislike-button:hover {
+  color: rgb(250, 105, 15);
+}
+
+#comment-icon {
+  margin-right: 20px;
+
+  margin-left: 10px;
+
+  font-size: 25px;
+
+  transition-duration: 0.5s;
+}
+
+#comment-icon:hover {
+  color: gray;
+}
+
+#save-post-icon {
+  font-size: 25px;
+
+  transition-duration: 0.5s;
+}
+
+#save-post-icon:hover {
+  color: gray;
+}
+
+/* This is where the followed communities column personalization is */
+#title-of-page {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-size: 150%;
+
+  text-shadow: 2px 2px 3px black;
+
+  margin-left: 10px;
+
+  transition-duration: 0.5s;
+}
+
+#title-of-page:hover {
+  text-shadow: 3px 6px 7px black;
+}
+
+#followed-communities-column {
+  position: fixed;
+
+  overflow-y: auto;
+
+  z-index: 2;
+
+  width: 16%;
+
+  top: 0;
+
+  height: 100%;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#go-to-profile-button {
+  margin-top: 30px;
+
+  margin-bottom: 20px;
+
+  height: 50px;
+
+  width: 180px;
+
+  background-color: rgb(102, 22, 204);
+
+  color: white;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-size: 1rem;
+
+  transition-duration: 0.5s;
+}
+
+#go-to-profile-button:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+#go-to-profile-button:hover {
+  animation-duration: 3s;
+
+  animation-name: glow-button;
+
+  animation-iteration-count: infinite;
+
+  animation-direction: alternate;
+}
+
+@keyframes glow-button {
+  0% {
+    background-color: rgb(107, 12, 201);
+  }
+
+  40% {
+    background-color: rgb(7, 39, 245);
+  }
+
+  100% {
+    background-color: rgb(198, 13, 212);
+  }
+}
+
+#sort-publications-by {
+  width: 150px;
+
+  height: 30px;
+
+  border-radius: 7px;
+
+  background: linear-gradient(45deg, rgb(137, 3, 255), rgb(38, 0, 255));
+
+  background-color: rgb(137, 3, 255);
+}
+
+#community-icon-image {
+  height: 45px;
+
+  border-radius: 15px;
+
+  border: solid;
+
+  border-color: rgb(152, 12, 240);
+}
+
+#user-searched-empty {
+  background-color: rgba(34, 0, 255, 0.944);
+
+  padding: 20px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  border-radius: 10px;
+}
+
+#options-of-search-buttons {
+  background-color: blue;
+
+  padding: 20px;
+
+  border: 2px none;
+
+  border-radius: 20px;
+}
+
+#show-publications-button,
+#show-profiles-button,
+#show-communities-button {
+  border: 2px none;
+
+  border-radius: 5px;
+
+  background-color: rgb(187, 0, 255);
+
+  transition-duration: 0.4s;
+}
+
+#show-publications-button:hover,
+#show-profiles-button:hover,
+#show-communities-button:hover {
+  background-color: rgba(187, 0, 255, 0.821);
+}
+
+#profiles-community-searched-for {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  margin-left: 50px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  overflow-y: auto;
+
+  width: 200px;
+}
+
+#show-original-posts-button {
+  height: 55px;
+
+  border: 2px none;
+
+  border-radius: 10px;
+
+  background-color: rgb(77, 145, 253);
+
+  transition-duration: 0.5s;
+}
+
+#show-original-posts-button:hover {
+  background-color: rgba(77, 144, 253, 0.801);
+}
+
+#hide-search-options {
+  border: 2px none;
+
+  border-radius: 5px;
+
+  background-color: red;
+
+  margin-top: 10px;
+
+  transition-duration: 0.5s;
+}
+
+#hide-search-options:hover {
+  background-color: rgba(255, 0, 0, 0.682);
+}
+
+@media screen and (max-width: 1170px) {
+  #title-of-page {
+    display: none;
+  }
+
+  #go-to-profile-button {
+    margin-top: 55px;
+
+    margin-left: 10px;
+
+    width: 100px;
+
+    height: 40px;
+  }
+
+  #gradient-line::after {
+    height: 100px;
+
+    width: 96vw;
+  }
+
+  #posts-div {
+    width: 100px;
+  }
+
+  #search-input-and-icon-div {
+    position: relative;
+  }
+
+  #posts-div-with-cool-effect {
+    position: relative;
+
+    text-align: center;
+  }
+
+  #div-outline-bars {
+    position: fixed;
+
+    z-index: 3;
+  }
+
+  #outline-bars-icon {
+    font-size: 30px;
+
+    border: 2px solid white;
+
+    border-radius: 10px;
+
+    padding: 3px;
+
+    top: 8px;
+
+    left: 110px;
+
+    position: relative;
+  }
+
+  #posts-div {
+    width: 30vw;
+
+    margin: auto;
+  }
+
+  #posts-div-with-cool-effect {
+    width: 20vw;
+  }
+
+  #posts-div-with-cool-effect::after {
+    display: none;
+  }
+
+  #outline-bars-child-div {
+    display: flex;
+
+    flex-direction: column;
+
+    position: relative;
+
+    background-color: black;
+
+    padding: 10px;
+
+    left: 43px;
+
+    top: 10px;
+
+    text-align: center;
+
+    align-items: center;
+
+    align-content: center;
+
+    border: 2px solid white;
+
+    border-bottom-left-radius: 10px;
+
+    border-bottom-right-radius: 10px;
+  }
+
+  #go-to-profile-button-outline-div {
+    background-color: black;
+
+    border: white 1px solid;
+
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+  }
+
+  #sort-outline-div {
+    border: 2px solid white;
+
+    background-color: black;
+
+    border-radius: 5px;
+
+    margin-top: 10px;
+
+    width: 70px;
+  }
+
+  #options-of-post-div {
+
+    margin: auto auto 25px auto;
+  }
+
+  #options-of-search-buttons {
+    
+  }
+}

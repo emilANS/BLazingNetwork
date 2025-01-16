@@ -1,0 +1,431 @@
+#cool-effect-create-community-page::before {
+  content: "";
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 80px;
+
+  background-image: linear-gradient(45deg, red, blue);
+
+  z-index: -1;
+
+  border: 2px none;
+
+  border-bottom-right-radius: 25px;
+
+  border-bottom-left-radius: 25px;
+}
+
+#cool-effect-create-community-page {
+  height: 70px;
+
+  align-items: center;
+
+  align-content: center;
+}
+
+#main-div-create-community {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#create-community-title {
+  text-align: center;
+}
+
+#community-name-desc-rules-div {
+  border: 2px solid white;
+
+  border-radius: 20px;
+
+  height: 580px;
+
+  text-align: center;
+
+  align-items: center;
+
+  align-content: center;
+
+  margin: auto;
+
+  width: 700px;
+
+  margin-top: 50px;
+
+  background-image: linear-gradient(30deg, red, blue);
+
+  box-shadow: rgba(120, 69, 182, 0.799) 0px 20px 30px -10px;
+}
+
+#name-of-community,
+#description-of-community,
+#rules-of-community {
+  border: 2px none;
+
+  border-radius: 10px;
+
+  width: 250px;
+
+  height: 30px;
+
+  text-align: center;
+
+  background-color: rgb(37, 37, 37);
+
+  color: white;
+}
+
+#name-of-community::placeholder,
+#description-of-community::placeholder,
+#rules-of-community::placeholder {
+  color: rgb(191, 191, 191);
+}
+
+#create-community-button {
+  width: 180px;
+
+  height: 40px;
+
+  margin-top: 30px;
+
+  border: 2px solid white;
+
+  border-radius: 15px;
+
+  background-color: rgba(78, 75, 255, 0.911);
+
+  font-size: 17.5px;
+
+  transition-duration: 0.5s;
+}
+
+#create-community-button:hover {
+  background-color: rgba(9, 5, 255, 0.911);
+}
+
+#hide-file-input-community-icon {
+  display: none;
+}
+
+#upload-community-file-icon {
+  font-size: 50px;
+
+  border: 2px solid white;
+
+  border-radius: 15px;
+
+  padding: 10px;
+
+  transition-duration: 0.5s;
+}
+
+#upload-community-file-icon:hover {
+  color: rgb(185, 185, 185);
+
+  border-color: rgb(185, 185, 185);
+}
+
+#filter-and-admin-moderator-of-div {
+  text-align: center;
+
+  margin-top: 30px;
+
+  background-image: linear-gradient(12deg, red, blue);
+
+  border: 2px none;
+
+  border-radius: 20px;
+
+  padding: 25px;
+}
+
+#admin-of-div {
+  border: 2px solid white;
+
+  border-radius: 20px;
+
+  width: 700px;
+
+  margin: auto;
+
+  padding: 15px;
+
+  background-image: linear-gradient(
+    25deg,
+    rgb(114, 22, 242),
+    rgba(223, 25, 223, 0.921)
+  );
+
+  box-shadow: rgba(198, 198, 198, 0.601) 0px 10px 36px 0px,
+    rgba(187, 187, 187, 0.59) 0px 0px 0px 1px;
+}
+
+#filter-by-admin,
+#filter-by-moderator {
+  margin: 20px;
+
+  padding: 10px;
+
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  background-color: rgb(19, 58, 233);
+
+  font-size: 18px;
+
+  transition-duration: 0.5s;
+}
+
+#filter-by-admin:hover,
+#filter-by-moderator:hover {
+  background-color: rgb(3, 36, 186);
+}
+
+#add-admins-button,
+#remove-admins-button,
+#change-privileges-button {
+  margin-left: 5px;
+
+  margin-right: 5px;
+
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+
+  height: 30px;
+
+  border: 2px solid rgb(214, 137, 253);
+
+  border-radius: 5px;
+
+  background-color: rgb(225, 43, 210);
+
+  font-size: 15px;
+
+  transition-duration: 0.5s;
+}
+
+#add-admins-button:hover,
+#remove-admins-button:hover,
+#change-privileges-button:hover {
+  background-color: rgb(182, 29, 169);
+}
+
+#close-window-button {
+  border: 2px none;
+
+  border-radius: 7px;
+
+  margin-top: 15px;
+
+  margin-bottom: 15px;
+
+  background-color: rgb(236, 36, 36);
+
+  height: 30px;
+
+  transition-duration: 0.5s;
+}
+
+#close-window-button:hover {
+  background-color: rgb(138, 29, 29);
+}
+
+#name-of-future-admin-or-moderator {
+  margin-top: 5px;
+
+  margin-bottom: 15px;
+
+  width: 200px;
+
+  height: 25px;
+
+  text-align: center;
+
+  border: 2px none;
+
+  border-radius: 5px;
+}
+
+#name-of-future-admin-or-moderator::placeholder {
+  color: rgba(255, 255, 255, 0.67);
+}
+
+#admin-to-ban {
+  margin-top: 5px;
+
+  margin-bottom: 15px;
+
+  width: 200px;
+
+  height: 25px;
+
+  text-align: center;
+
+  border: 2px none;
+
+  border-radius: 5px;
+}
+
+#profile-to-change-privileges {
+  margin-top: 5px;
+
+  margin-bottom: 15px;
+
+  width: 200px;
+
+  height: 25px;
+
+  text-align: center;
+
+  border: 2px none;
+
+  border-radius: 5px;
+}
+
+#add-as-admin,
+#add-as-moderator {
+  border: 2px none;
+
+  border-radius: 10px;
+
+  margin: 10px;
+
+  background-color: rgb(29, 74, 220);
+
+  padding: 12px;
+
+  font-size: 17px;
+
+  transition-duration: 0.5s;
+}
+
+#add-as-admin:hover,
+#add-as-moderator:hover {
+  background-color: rgb(19, 58, 186);
+}
+
+#options-for-admin-moderator-div {
+  border: 1px solid white;
+
+  border-radius: 20px;
+
+  margin: auto;
+
+  width: 500px;
+
+  background-image: linear-gradient(
+    35deg,
+    rgba(47, 47, 255, 0.453),
+    rgba(255, 0, 0, 0.558)
+  );
+
+  box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
+}
+
+#remove-admin-moderator {
+  border: 2px none;
+
+  border-radius: 10px;
+
+  background-color: rgb(255, 39, 39);
+
+  padding: 15px;
+
+  font-size: 20px;
+
+  margin-bottom: 22px;
+
+  transition-duration: 0.2s;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+#remove-admin-moderator:hover {
+  background-color: rgb(197, 30, 30);
+
+  animation-name: tilt-shaking;
+
+  animation-duration: 0.2s;
+
+  animation-iteration-count: infinite;
+}
+
+#change-privileges-to-moderator,
+#change-privileges-to-admin {
+  margin-right: 10px;
+
+  margin-bottom: 15px;
+
+  padding: 10px;
+
+  border: 2px solid white;
+
+  border-radius: 10px;
+
+  background-color: rgb(255, 97, 23);
+
+  transition-duration: 0.5s;
+}
+
+#change-privileges-to-moderator:hover,
+#change-privileges-to-admin:hover {
+  background-color: rgb(201, 76, 18);
+}
+
+@media screen and (max-width: 1170px) {
+  #cool-effect-create-community-page::before {
+    height: 16%;
+
+    width: 100%;
+  }
+
+  #community-name-desc-rules-div {
+    width: auto;
+
+    margin-top: 25vw;
+
+    height: 740px;
+  }
+
+  #admin-of-div {
+    width: auto;
+  }
+
+  #options-for-admin-moderator-div {
+    width: auto;
+  }
+
+  #create-community-button {
+    width: auto;
+  }
+
+  #filter-by-admin,
+  #filter-by-moderator,
+  #add-admins-button,
+  #remove-admins-button,
+  #change-privileges-button,
+  #rules-of-community,
+  #description-of-community,
+  #name-of-community {
+    width: auto;
+  }
+}
