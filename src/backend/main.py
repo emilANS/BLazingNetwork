@@ -1,3 +1,5 @@
+from credentials_sql import user_postgresql, password_postgresql
+
 from flask import Flask, request, json
 
 from flask_cors import CORS, cross_origin
@@ -23,13 +25,12 @@ socketio.init_app(app, cors_allowed_origins="*")
 
 frontend_address = "http://localhost:5173/"
 
-# PostgreSQL database connection specifications
-# Change password when project finished
+
 conn = psycopg.connect(
     host="localhost",
-    dbname="blazingDatabase",
-    user="postgres",
-    password="elbolicheelcabron123",
+    dbname="blazingdatabase",
+    user=user_postgresql,
+    password=password_postgresql,
     port=5432,
 )
 
