@@ -2,12 +2,39 @@
 
 A social network with features like chatpages, group chatpages, individual chatpages, comments, replies, likes and dislikes systems, it haves the hability to upload your posts with images or videos and you can save posts and comment on them, it haves a community system where posts can be created there so people can search in the search bar for the communities they are in and post and see posts there, you can subscribe to communities and see more posts with the recommendation system, the recommendaation system is a mathematical metric formula called cosine similarity that takes all likes from users and see what users have the most similar interests and recommend these posts from other users to the user, it have a administrator systems in chat and community pages like ban users, make users admins or moderators, remove the rank of admin from communities or chat pages, you can change your profile settings like image, username, password, email, it have a registration and login system, it is connected to a postgresql backend where all posts likes users are stored, it haves a profile page system where you can see posts users have made and replies comments, likes, dislikes etc, all is personalized and adapted to a vast majority of phones, tablets, screens
 
+
+# Images
+
+<h2>The register page</h2>
+<img width="1901" height="912" alt="1" src="https://github.com/user-attachments/assets/9e1eaa72-f28e-43f1-853c-c818fbaaebdb" />
+
+<h2>The login page</h2>
+<img width="1916" height="917" alt="2" src="https://github.com/user-attachments/assets/3364b422-7955-46bc-a617-415861fa9210" />
+
+<h2>The Main page of the website</h2>
+
+<img width="1892" height="897" alt="valve" src="https://github.com/user-attachments/assets/7df8633b-eb86-47f6-8e15-4952b79f6afe" />
+
+<h2>The profile page</h2>
+
+<img width="1896" height="903" alt="profile" src="https://github.com/user-attachments/assets/4c05592e-6c97-4529-950c-fcb561615f3f" />
+
+<h2>Settings of user</h2>
+
+<img width="1883" height="896" alt="opciones" src="https://github.com/user-attachments/assets/74ad17b6-990e-4c5e-bb25-eb49c22d6aa0" />
+
+<h2>Communities pages, i made it like a reddit type of social network</h2>
+<img width="1913" height="898" alt="communityPage with posts" src="https://github.com/user-attachments/assets/3b053f42-5269-4501-8e38-175178344806" />
+
+<h2>The comments system</h2>
+<img width="1891" height="887" alt="post page see" src="https://github.com/user-attachments/assets/b4a3e958-d3da-40b3-a9b4-3d51836b1411" />
+
 <h1>Technologies used for creating this website</h1>
 React + Vite
 <br>
 Flask
 <br>
-Nodejs
+Javascript
 <br>
 Python
 <br>
