@@ -8,23 +8,35 @@ A social network with features like chatpages, group chatpages, individual chatp
 <h2>The register page</h2>
 <img width="1901" height="912" alt="1" src="https://github.com/user-attachments/assets/9e1eaa72-f28e-43f1-853c-c818fbaaebdb" />
 
+<hr>
+
 <h2>The login page</h2>
 <img width="1916" height="917" alt="2" src="https://github.com/user-attachments/assets/3364b422-7955-46bc-a617-415861fa9210" />
+
+<hr>
 
 <h2>The Main page of the website</h2>
 
 <img width="1892" height="897" alt="valve" src="https://github.com/user-attachments/assets/7df8633b-eb86-47f6-8e15-4952b79f6afe" />
 
+<hr>
+
 <h2>The profile page</h2>
 
 <img width="1896" height="903" alt="profile" src="https://github.com/user-attachments/assets/4c05592e-6c97-4529-950c-fcb561615f3f" />
+
+<hr>
 
 <h2>Settings of user</h2>
 
 <img width="1883" height="896" alt="opciones" src="https://github.com/user-attachments/assets/74ad17b6-990e-4c5e-bb25-eb49c22d6aa0" />
 
+<hr>
+
 <h2>Communities pages, i made it like a reddit type of social network</h2>
 <img width="1913" height="898" alt="communityPage with posts" src="https://github.com/user-attachments/assets/3b053f42-5269-4501-8e38-175178344806" />
+
+<hr>
 
 <h2>The comments system</h2>
 <img width="1891" height="887" alt="post page see" src="https://github.com/user-attachments/assets/b4a3e958-d3da-40b3-a9b4-3d51836b1411" />
